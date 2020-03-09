@@ -8,5 +8,5 @@ docker run -d --restart unless-stopped --name "tor-relay-testing" \
 -p 9031:9030/tcp \
 -e "TZ=Europe/Madrid" \
 -v '/mnt/user/appdata/tor-data/config/':'/etc/tor/':'rw' \
-fortu/docker-tor-relay
+fortu/tor-relay-testing
 ```
