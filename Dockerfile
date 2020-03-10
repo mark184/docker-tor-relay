@@ -1,7 +1,6 @@
 FROM debian:stable-slim
 
 LABEL maintainer="FoRTu" \
-maintainet.email="mikelfortuna@gmail.com" \
 maintainer.website="https://github.com/FoRTu"
 
 # Install Updates + Quake2 & OpenFFA MOD:
@@ -20,9 +19,7 @@ rm -rf \
         /var/lib/apt/lists/* \
         /usr/share/doc/*
 
-EXPOSE 9001
-EXPOSE 9030
-EXPOSE 9050
+EXPOSE 9001 9030 9050
 
 # Command to run on container startup
 CMD ["tor", "-f", "/etc/tor/torrc"]
