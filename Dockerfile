@@ -3,7 +3,7 @@ FROM debian:stable-slim
 LABEL maintainer="FoRTu" \
 maintainer.website="https://github.com/FoRTu"
 
-# Install Updates + Quake2 & OpenFFA MOD:
+# Install Updates + tor + tor-arm:
 RUN apt update && \
 apt upgrade -y && \
 apt -y install tor tor-arm && \
