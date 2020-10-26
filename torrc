@@ -41,7 +41,7 @@ RelayBandwidthBurst 1024 KB
 #MaxMemInQueues 512 MB
 
 # Set a nickname to your relay using only letters and numbers
-Nickname TorRelayNick
+Nickname aardman18375
 
 # contact info (mail, Twitter, facebook, wallet address...)
-ContactInfo '(mail, Twitter, facebook, wallet address...)'
+ContactInfo mark184@gmail.com
